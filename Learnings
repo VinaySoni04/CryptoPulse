@@ -1,0 +1,19 @@
+import { Box } from "@chakra-ui/react"
+
+const SideMenu = () => {
+    // Box works as div in Chakra Ui. Box have many powers like we can directly write css in place of className
+  return (
+    <Box
+    display="flex"
+    bg="green"
+    // Media query of padding
+    px={{
+        base:"4", // Padding of 4 is given in Smallest screen size
+        md:"8", // Padding of 8 is given in Tablet screen size
+        xl:"16" // Padding of 16 is given in Largest screen size
+    }}
+    >SideMenu</Box>
+  )
+}
+
+export default SideMenu
