@@ -62,7 +62,7 @@ const SideMenu = () => {
           ))}
         </Box>
       </Box>
-      <Box mx="12px" mt="24px" mb="24px" cursor="pointer">
+      <Box mx="12px" mt="24px" mb="24px" cursor="pointer" >
         <Link to="/support">
           <HStack
             py="12px"
@@ -76,7 +76,7 @@ const SideMenu = () => {
             color={isActive("/support") ? "#171717" : "#797E82"}
           >
             <Icon as={BiSupport} />
-            <Text fontSize="14px" fontWeight="medium">
+            <Text fontSize="18px" fontWeight="medium">
               Support
             </Text>
           </HStack>

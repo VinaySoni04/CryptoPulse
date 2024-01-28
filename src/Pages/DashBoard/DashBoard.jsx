@@ -34,14 +34,14 @@ const DashBoard = () => {
         </GridItem>
         <GridItem colSpan={1}>
           <InfoCard
-            imgUrl="/public/DotBackground.svg"
+            imgUrl="/DotBackground.svg"
             text="Learn more about Loans – Keep your Bitcoin, access it’s value without selling it."
             tagText="Loan"
           />
         </GridItem>
         <GridItem colSpan={1}>
           <InfoCard
-            imgUrl="/public/GridBackground.svg"
+            imgUrl="/GridBackground.svg"
             text="Learn more about our real estate, mortgage, and  corporate account services."
             tagText="Contact"
           />

@@ -114,7 +114,7 @@ const PriceSection = () => {
             </HStack>
           </TabPanel>
           <TabPanel>
-            <Image width="100%" src="/public/Graph.svg" mt="58px" />
+            <Image width="100%" src="/Graph.svg" mt="58px" />
             <HStack justify="space-between">
               {timeStamps.map((timestamp) => (
                 <Text key={timestamp} fontSize="sm" color="black.80">
