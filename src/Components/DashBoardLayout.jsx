@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Box, Container, Flex, calc, useDisclosure } from "@chakra-ui/react";
+import { Box, Container, Flex, useDisclosure } from "@chakra-ui/react";
 import SideMenu from "./SideMenu";
 import TopNavBar from "./TopNavBar";
 import SideDrawer from "./SideDrawer";

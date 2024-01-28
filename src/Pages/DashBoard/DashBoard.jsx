@@ -4,8 +4,13 @@ import PortfolioSection from "./PortfolioSection";
 import PriceSection from "./PriceSection";
 import RecentTransactions from "./RecentTransactions";
 import InfoCard from "./InfoCard";
+import { useEffect } from "react";
 
 const DashBoard = () => {
+  useEffect(()=>{ // useEffect hook is similar to componentDidMount() and componentDidUpdate()
+    document.title="Dashboard || CryptoPulse"; // By using [], useEffect will runs only once
+},[])
+
   return (
     <DashBoardLayout title="Dashboard">
       <Grid

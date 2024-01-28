@@ -5,8 +5,13 @@ import ContactCard from "./ContactCard";
 import SupportCard from "./SupportCard";
 import InfoCard from "../DashBoard/InfoCard";
 import { Stack } from "@chakra-ui/react";
+import { useEffect } from "react";
 
 const Support = () => {
+  useEffect(()=>{ // useEffect hook is similar to componentDidMount() and componentDidUpdate()
+    document.title="Support || CryptoPulse"; // By using [], useEffect will runs only once
+},[])
+
   return (
     <DashBoardLayout title="Support">
       <Stack spacing="40px">

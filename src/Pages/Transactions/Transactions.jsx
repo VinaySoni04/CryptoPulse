@@ -18,6 +18,7 @@ import DashBoardLayout from "../../Components/DashBoardLayout";
 import { BiSolidDownload } from "react-icons/bi";
 import TransactionHistoryTable from "./TransactionHistoryTable";
 import { IoSearch } from "react-icons/io5";
+import { useEffect } from "react";
 
 const Transactions = () => {
   const tabs = [
@@ -38,6 +39,10 @@ const Transactions = () => {
       count: 22,
     },
   ];
+
+  useEffect(()=>{ // useEffect hook is similar to componentDidMount() and componentDidUpdate()
+    document.title="Transaction || CryptoPulse"; // By using [], useEffect will runs only once
+},[])
 
   return (
     <DashBoardLayout title="Transaction History">
